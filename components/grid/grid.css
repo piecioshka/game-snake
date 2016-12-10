@@ -3,7 +3,7 @@
 game hr {
     height: 1px;
     width: 100%;
-    background: darkgrey;
+    background: white;
     margin: 0;
     border: none;
 
@@ -15,7 +15,7 @@ game hr {
 game vr {
     height: 100%;
     width: 1px;
-    background: darkgrey;
+    background: white;
     margin: 0;
     border: none;
 

@@ -6,8 +6,10 @@ game {
     display: block;
 
     background: whitesmoke;
-    border: 5px solid darkgreen;
+    border: 5px solid darkcyan;
+    box-shadow: 1px 1px 3px #000;
     border-radius: 2px;
+    margin: 5px;
 
     position: relative;
 }

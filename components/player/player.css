@@ -1,11 +1,13 @@
 @charset "UTF-8";
 
 snake {
-    width: 10px;
-    height: 10px;
+    width: auto;
+    height: auto;
     display: block;
 
-    background: black;
+    background: darkcyan;
+    box-shadow: 0 0 1px #000;
+    border-radius: 2px;
     position: absolute;
     left: auto;
     top: auto;

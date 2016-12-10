@@ -8,6 +8,7 @@ function setup() {
 
     Player.build();
     Player.render(Game.$elm);
+    Player.start();
 }
 
 window.addEventListener('DOMContentLoaded', setup);
