@@ -4,15 +4,15 @@ let Grid = {
     setup() {
         this.$game = document.querySelector('game');
 
-        let horizontalBlocks = new Array(Game.WIDTH / Player.WIDTH - 1).fill(0);
-        let verticalBlocks = new Array(Game.HEIGHT / Player.HEIGHT - 1).fill(0);
+        let horizontalBlocks = new Array(Game.WIDTH / Snake.WIDTH - 1).fill(0);
+        let verticalBlocks = new Array(Game.HEIGHT / Snake.HEIGHT - 1).fill(0);
 
         horizontalBlocks.forEach((value, index) => {
-            this.addVerticalLine((index + 1) * Player.WIDTH);
+            this.addVerticalLine((index + 1) * Snake.WIDTH);
         });
 
         verticalBlocks.forEach((value, index) => {
-            this.addHorizontalLine((index + 1) * Player.HEIGHT);
+            this.addHorizontalLine((index + 1) * Snake.HEIGHT);
         });
     },
 

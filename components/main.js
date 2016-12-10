@@ -6,9 +6,17 @@ function setup() {
 
     Grid.setup();
 
-    Player.build();
-    Player.render(Game.$elm);
-    Player.start();
+    Diamond.build('diamond');
+    Diamond.render(Game.$elm);
+
+    Snake.build('snake');
+    Snake.render(Game.$elm);
+    Snake.start();
+
+    Scoreboard.build();
+    Scoreboard.render(Game.$elm);
+    Scoreboard.listenForCollecting();
+    Scoreboard.displayScore(0);
 }
 
 window.addEventListener('DOMContentLoaded', setup);

@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 game {
-    width: 100px;
-    height: 100px;
+    width: auto;
+    height: auto;
     display: block;
 
     background: whitesmoke;

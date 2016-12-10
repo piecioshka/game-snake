@@ -6,8 +6,7 @@ let TOP = 38;
 let DOWN = 40;
 
 function dispatchEvent(name) {
-    let evt = new CustomEvent(name);
-    document.dispatchEvent(evt);
+    document.dispatchEvent(new CustomEvent(name));
 }
 
 document.addEventListener('keydown', (evt) => {
