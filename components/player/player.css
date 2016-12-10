@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+snake {
+    width: 10px;
+    height: 10px;
+    display: block;
+
+    background: black;
+    position: absolute;
+    left: auto;
+    top: auto;
+}

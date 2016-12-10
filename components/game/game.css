@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+game {
+    width: 100px;
+    height: 100px;
+    display: block;
+
+    background: whitesmoke;
+    border: 5px solid darkgreen;
+    border-radius: 2px;
+
+    position: relative;
+}

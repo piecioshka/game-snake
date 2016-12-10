@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+game hr {
+    height: 1px;
+    width: 100%;
+    background: darkgrey;
+    margin: 0;
+    border: none;
+
+    position: absolute;
+    left: 0;
+    top: auto;
+}
+
+game vr {
+    height: 100%;
+    width: 1px;
+    background: darkgrey;
+    margin: 0;
+    border: none;
+
+    position: absolute;
+    left: auto;
+    top: 0;
+}
