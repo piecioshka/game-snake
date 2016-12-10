@@ -1,8 +1,12 @@
 # game-snake
 
-> :video_game: Snake game.
+> :video_game: Game: Old, good ... :snake: :snake: :snake: "snake"!
 
-![](./screenshot.png)
+## Demo
+
+https://piecioshka.github.io/game-snake/
+
+[![](./screenshot.png)](https://piecioshka.github.io/game-snake/)
 
 ## License
 

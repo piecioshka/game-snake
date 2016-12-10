@@ -1,7 +1,5 @@
 'use strict';
 
-let Diamond = {
-
-};
+let Diamond = {};
 
 Object.setPrototypeOf(Diamond, Block);

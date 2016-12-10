@@ -1,22 +1,44 @@
 'use strict';
 
 function setup() {
+    let $body = document.querySelector('body');
+
     Game.build();
-    Game.render(document.querySelector('body'));
+    Game.render($body);
+
+    ScoreBoard.build();
+    ScoreBoard.render(Game.$elm);
+    ScoreBoard.listenForCollecting();
+    ScoreBoard.displayScore(0);
+
+    ProjectBoard.build();
+    ProjectBoard.render(Game.$elm);
+
+    Board.build();
+    Board.render(Game.$elm);
 
     Grid.setup();
 
     Diamond.build('diamond');
-    Diamond.render(Game.$elm);
+    Diamond.setRandomPosition();
+    Diamond.render(Board.$elm);
 
-    Snake.build('snake');
-    Snake.render(Game.$elm);
     Snake.start();
 
-    Scoreboard.build();
-    Scoreboard.render(Game.$elm);
-    Scoreboard.listenForCollecting();
-    Scoreboard.displayScore(0);
+    VersionBoard.build();
+    VersionBoard.render(Game.$elm);
+
+    AuthorBoard.build();
+    AuthorBoard.render(Game.$elm);
 }
 
-window.addEventListener('DOMContentLoaded', setup);
+function restart() {
+    ScoreBoard.resetPoints();
+    ScoreBoard.displayScore();
+    GameOverBoard.destroy();
+    Snake.destroy();
+    Snake.start();
+}
+
+document.addEventListener('DOMContentLoaded', setup);
+document.addEventListener('game:restart', restart);

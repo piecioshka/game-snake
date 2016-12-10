@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-snake {
+snake-item {
     width: auto;
     height: auto;
     display: block;
@@ -8,7 +8,12 @@ snake {
     background: darkcyan;
     box-shadow: 0 0 1px #000;
     border-radius: 2px;
+
     position: absolute;
-    left: auto;
-    top: auto;
+    left: -9999px;
+    top: -9999px;
+}
+
+snake-item:nth-of-type(1) {
+    background: #017777;
 }

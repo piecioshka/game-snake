@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+board {
+    width: auto;
+    height: auto;
+    display: block;
+    clear: both;
+
+    background: whitesmoke;
+    border: 5px solid darkcyan;
+    border-radius: 2px;
+
+    position: relative;
+}

@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+score-board {
+    float: left;
+    margin: 0 0 5px 0;
+
+    font-size: 11px;
+    font-family: Verdana, serif;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    padding: 2px 5px;
+    color: white;
+}

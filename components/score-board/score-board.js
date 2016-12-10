@@ -2,13 +2,13 @@
 
 let points = 0;
 
-let Scoreboard = {
+let ScoreBoard = {
     build() {
-        this.$elm = document.createElement('scoreboard');
+        this.$elm = document.createElement('score-board');
     },
 
     render($where) {
-        Game.render.apply(this, arguments);
+        Board.render.apply(this, arguments);
     },
 
     listenForCollecting() {
@@ -20,5 +20,9 @@ let Scoreboard = {
 
     displayScore() {
         this.$elm.innerText = 'Score: ' + points;
+    },
+
+    resetPoints() {
+        points = 0;
     }
 };

@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+author-board {
+    float: right;
+    margin: 5px 0 0 0;
+
+    font-size: 11px;
+    font-family: Verdana, serif;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    padding: 2px 5px;
+    color: white;
+    cursor: pointer;
+}
+
+author-board:hover {
+    color: #000;
+}

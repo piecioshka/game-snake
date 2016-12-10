@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-game hr {
+board hr {
     height: 1px;
     width: 100%;
     background: white;
@@ -12,7 +12,7 @@ game hr {
     top: auto;
 }
 
-game vr {
+board vr {
     height: 100%;
     width: 1px;
     background: white;
