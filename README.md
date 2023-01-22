@@ -2,7 +2,7 @@
 
 > :video_game: Game: Old, good ... :snake: :snake: :snake: "snake"!
 
-## Demo
+## Preview 🎉
 
 https://piecioshka.github.io/game-snake/
 
